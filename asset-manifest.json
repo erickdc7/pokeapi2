@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokeapi2/static/css/main.caee5fe1.css",
+    "main.js": "/pokeapi2/static/js/main.4c40e462.js",
+    "index.html": "/pokeapi2/index.html",
+    "main.caee5fe1.css.map": "/pokeapi2/static/css/main.caee5fe1.css.map",
+    "main.4c40e462.js.map": "/pokeapi2/static/js/main.4c40e462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caee5fe1.css",
+    "static/js/main.4c40e462.js"
+  ]
+}
