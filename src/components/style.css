@@ -24,7 +24,7 @@ body {
 
 .left-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 2rem;
 }
 
@@ -97,4 +97,49 @@ body {
   color: #fff;
   background-color: #b74555;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .right-content {
+    position: relative;
+    width: 100%;
+    order: -1;
+    margin: 0 auto;
+    top: initial;
+    right: initial;
+  }
+
+  .left-content,
+  .right-content {
+    flex-basis: initial;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .card {
+    padding: 0 1rem;
+  }
+
+  .card h2 {
+    font-size: 1.25rem;
+  }
+
+  .right-content img {
+    height: 90px;
+  }
+
+  .abilities {
+    flex-wrap: wrap;
+    row-gap: 0.75rem;
+  }
 }
