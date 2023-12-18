@@ -1,5 +1,5 @@
 # PokeAPI 02
-This design is inspired by this [video](https://youtu.be/Iz5iNOMCIjY), which belongs to [Imaginary Engineering](https://www.youtube.com/@imaginaryengineering5566).
+This design is inspired by the work of [Imaginary Engineering](https://www.youtube.com/@imaginaryengineering5566). Click [here](https://youtu.be/Iz5iNOMCIjY) to watch the video.
 
 ## Technologies
 This web page was made with the following technologies:
